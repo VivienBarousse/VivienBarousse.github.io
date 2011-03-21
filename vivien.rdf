@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:admin="http://webns.net/mvcb/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <foaf:PersonalProfileDocument rdf:about="">
+        <foaf:maker rdf:resource="#me" />
+        <foaf:primaryTopic rdf:resource="#me" />
+        <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic" />
+        <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com" />
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Vivien Barousse</foaf:name>
+        <foaf:title>Mr</foaf:title>
+        <foaf:givenname>Vivien</foaf:givenname>
+        <foaf:family_name>Barousse</foaf:family_name>
+        <foaf:nick>viv</foaf:nick>
+        <foaf:nick>VivienBarousse</foaf:nick>
+        <foaf:mbox_sha1sum>3932018530f5f977e13ff51638dbdbda083d3932</foaf:mbox_sha1sum>
+        <foaf:mbox_sha1sum>61ac60cf1cb88bcc56e9cca192cb4ba59a1cbb02</foaf:mbox_sha1sum>
+        <foaf:mbox_sha1sum>f8751266b56a7677f171a61327e30f77809abc19</foaf:mbox_sha1sum>
+        <foaf:mbox_sha1sum>d0e0215b7aa5798c5871a5bee3b4759dfb623c32</foaf:mbox_sha1sum>
+        <foaf:jabberID>barousse.vivien@gmail.com</foaf:jabberID>
+        <foaf:msnChatID>barousse.vivien@gmail.com</foaf:msnChatID>
+        <foaf:homepage rdf:resource="http://vivien.barous.se/" />
+        <foaf:phone rdf:resource="tel:+44-7909464143" />
+        <foaf:phone rdf:resource="tel:+33-642875923" />
+        <foaf:based_near>
+            <geo:Point geo:lat="51.751944" geo:long="-1.257778" />
+        </foaf:based_near>
+        <foaf:based_near>
+            <geo:Point geo:lat="43.611944" geo:long="3.877222" />
+        </foaf:based_near>
+        <foaf:schoolHomepage rdf:resource="http://www.brookes.ac.uk/" />
+        <foaf:schoolHomepage rdf:resource="http://www.supinfo.com/" />
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://www.github.com/VivienBarousse">
+                <foaf:accountName>VivienBarousse</foaf:accountName>
+                <foaf:accountServiceHomepage rdf:resource="http://www.github.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://www.facebook.com/VivienBarousse">
+                <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://uk.linkedin.com/in/vivienbarousse">
+                <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://www.viadeo.com/en/profile/barousse.vivien">
+                <foaf:accountServiceHomepage rdf:resource="http://www.viadeo.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://www.twitter.com/VivienBarousse">
+                <foaf:accountName>VivienBarousse</foaf:accountName>
+                <foaf:accountServiceHomepage rdf:resource="http://www.twitter.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:firstName>Martin</foaf:firstName>
+                <foaf:surname>Filliau</foaf:surname>
+                <foaf:mbox_sha1sum>60869ffbf7262c2d530f266adfb682c59a51813d</foaf:mbox_sha1sum>
+                <rdfs:seeAlso rdf:resource="http://martin.filliau.com/martinfilliau.rdf"/>
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:firstName>Colin</foaf:firstName>
+                <foaf:surname>Hebert</foaf:surname>
+                <foaf:mbox_sha1sum>9e81a90b521728b5aec634610b11036dcc390021</foaf:mbox_sha1sum>
+            </foaf:Person>
+        </foaf:knows>
+    </foaf:Person>
+</rdf:RDF>
