@@ -41,6 +41,11 @@
             </foaf:OnlineAccount>
         </foaf:holdsAccount>
         <foaf:holdsAccount>
+            <foaf:OnlineAccount rdf:about="http://stackoverflow.com/users/426412/vivien-barousse">
+                <foaf:accountServiceHomepage rdf:resource="http://stackoverflow.com/" />
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+        <foaf:holdsAccount>
             <foaf:OnlineAccount rdf:about="http://www.facebook.com/VivienBarousse">
                 <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com/" />
             </foaf:OnlineAccount>
