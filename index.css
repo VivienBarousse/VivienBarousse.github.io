@@ -1,3 +1,8 @@
+*
+{
+  font-weight: 100;
+}
+
 html, body {
     padding: 0px;
     margin: 0px;
@@ -5,43 +10,45 @@ html, body {
 }
 
 body {
-    background-color: #4F5F75;
-    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #ededed;
+    font-family: 'Lato', Tahoma, Geneva, sans-serif;
 }
 
 div#content {
     width: 800px;
     min-height: 100%;
     margin: 0px auto;
+    margin-bottom: 0px;
     background-color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 h1 {
-    background-color: #065EFE;
-    border-bottom: 7px solid #0153E7;
+    background-color: #767676;
+    border-bottom: 2px solid black;
     color: #FFFFFF;
     padding: 20px;
     margin: 0px;
 }
 
 h2, h3, h4 {
-    margin-left: 10px;
-    color: #4F5F75;
+    margin-left: 20px;
+    color: #767676;
 }
 
 h3 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 h4 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 p {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 ul {
@@ -49,5 +56,5 @@ ul {
 }
 
 a {
-    color: #065EFE;
+    color: #767676;
 }
