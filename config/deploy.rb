@@ -1,15 +1,17 @@
 set :application, "vivien.barous.se"
-set :repository,  "git://github.com/VivienBarousse/vivien.barous.se.git"
+set :repo_url, "git://github.com/VivienBarousse/vivien.barous.se.git"
+
 set :deploy_to, "/var/lib/aperigeek/http/vivien.barous.se"
-
 set :scm, :git
-set :branch, "master"
 
-set :deploy_via, :remote_cache
+set :keep_releases, 5
 
-set :user, "aperigeek"
+namespace :deploy do
 
-role :web,      "goppa.aperigeek.com",
-                "levin.aperigeek.com"
+  task :restart do
+    # No-op, served by Apache directly
+  end
 
-after "deploy:restart", "deploy:cleanup"
+  after :finishing, 'deploy:cleanup'
+
+end
