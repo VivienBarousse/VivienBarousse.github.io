@@ -15,7 +15,7 @@ body {
 }
 
 div#content {
-    width: 800px;
+    max-width: 800px;
     min-height: 100%;
     margin: 0px auto;
     margin-bottom: 0px;
